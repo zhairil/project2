@@ -1,0 +1,71 @@
+body{
+	background: green;
+	font-family:cursive;
+}
+p{
+	font-size: 30px;
+}
+h1{
+	text-align:center;
+	font-side: 100px;
+	color: rgb(0, 255, 0);
+}
+.center{
+	text-align:center;
+}
+.inline{
+	display:inline;
+}
+.colspan2{
+	grid-column-start:1;
+	grid-column-end:3;
+	margin: 0 auto;
+}
+.homepagegrid{
+	border: solid green 2px; 
+	display:grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 3vh;
+}
+.page1grid{
+	display:grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr 50px;
+}
+.page2grid{
+	display:grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 20% 60% 20%;
+}
+.page3grid{
+	display:grid;
+	grid-template: 1fr / repeat(2, 1fr);
+}
+.page4grid{
+	display:grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr 3fr 1fr;
+}
+.page5grid{
+	display:grid;
+	grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+	grid-template-areas:"1 2"
+						"3 4";
+}
+.topnav{
+	background-color: rgb(128, 64, 0);
+	overflow:hidden;
+}
+.topnav a{
+	float:left;
+	font-size: 24px;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration:none;
+	color: green;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
