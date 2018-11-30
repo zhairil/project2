@@ -14,6 +14,9 @@ h1{
 h2{
 	color:rgb(153, 102, 51);
 }
+.comparison{
+	background-color:#ff0000;
+}
 .center{
 	text-align:center;
 }
@@ -62,14 +65,13 @@ h2{
 }
 .topnav a{
 	float:left;
-	font-size: 24px;
+	font-size: 15px;
 	padding: 14px 16px;
 	text-align: center;
 	text-decoration:none;
-	color: green;
+	color: rgb(0, 255, 0);
 }
-
 .topnav a.active {
     background-color: #4CAF50;
-    color: green;
+    color: rgb(0, 255, 0);
 }
