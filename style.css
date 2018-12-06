@@ -59,6 +59,11 @@ h2{
 	grid-template-areas:"1 2"
 						"3 4";
 }
+.page6grid{
+	display:grid;
+	grid-template: 10% 35% 10% 25% /repeat(2, 1fr);
+	grid-gap: 10px;
+}
 .topnav{
 	background-color: rgb(128, 64, 0);
 	overflow:hidden;
